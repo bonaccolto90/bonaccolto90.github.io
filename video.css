@@ -1,0 +1,55 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.video {
+    background: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    width: 23%; /* Thumbnails 4 across */
+    margin: 1%;
+    float: left;
+}
+  
+.video figure {
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video figure a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 0;
+}
+
+@media (max-width: 600px) {
+.video {
+    width: 48%; /* Thumbnails 2 across */
+  }
+}
+
+.video img {
+  width: 100%;
+  opacity: 1;
+}
+
+.video img:hover, .video img:active, .video img:focus {
+  opacity: 0.75;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 15px 8px;
+    margin: 0;
+    white-space: nowrap;
+}
